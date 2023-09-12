@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #333;
+}
+
+.word-container {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#letter-input {
+    width: 50px;
+}
+
+#guess-button {
+    background-color: #0074cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+}
